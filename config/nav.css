@@ -1,0 +1,54 @@
+/* Navbar implementation */
+.navbar {
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #990000;
+    color: white;
+    width: 100%;
+    z-index: 10;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    /* box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4); */
+}
+
+.brand-title {
+    font-size: 1.5rem;
+    margin: 0.5rem;
+    font-family: 'Edu QLD Beginner', cursive;
+    font-family: 'Oswald', sans-serif;
+}
+
+.brand-title a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar-links ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar-links li {
+    list-style: none;
+}
+
+.navbar-links li a {
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+    margin: 0 1rem;
+    display: block; /* Helps with spacing overall */
+}
+
+.navbar-links li:hover {
+    background-color: rgba(87, 86, 86, 0.2);
+}
+
+.my{
+    color: gold;
+}
+/* End of navbar implementation */
